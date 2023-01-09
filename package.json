@@ -2,32 +2,36 @@
   "name": "bc-snippet-code",
   "displayName": "bc-snippet-code",
   "description": "babycare ts代码片段",
-  "version": "0.0.1",
+  "publisher": "jianmofeng",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.74.0"
   },
+  "icon": "image/icon.png",
   "categories": [
-    "Extension Packs"
+    "Snippets"
   ],
-  "activationEvents": [
-    "onCommand:bc-snippet-code.helloWorld"
-  ],
-  "main": "./out/extension.js",
-  "publisher": "jianmofeng",
-  "contributes": {
-    "commands": [
-      {
-        "command": "bc-snippet-code.helloWorld",
-        "title": "Hello World"
-      }
-    ],
-    "snippets": [
+	"contributes": {
+		"snippets": [
 			{
 				"language": "vue",
-				"path": "./src/snippets.json"
+				"path": "./snippets/vue3.json"
+			},
+      {
+				"language": "typescript",
+				"path": "./snippets/vue3.json"
+			},{
+				"language": "javascript",
+				"path": "./snippets/vue3.json"
 			}
 		]
-  },
+	},
+  "activationEvents": [
+      "onLanguage:vue",
+      "onLanguage:typescript",
+      "onLanguage:javascript"
+  ],
+  "main": "out/extension.js",
   "scripts": {
     "vscode:prepublish": "pnpm run compile",
     "compile": "tsc -p ./",

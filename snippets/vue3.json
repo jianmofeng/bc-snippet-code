@@ -1,6 +1,6 @@
 {
   "Print to vue": {
-    "scope": "vue,typescript",
+    "scope": "vue",
     "prefix": "vue3",
     "body": [
       "<template>",
