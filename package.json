@@ -7,7 +7,7 @@
     "vscode": "^1.74.0"
   },
   "categories": [
-    "Other"
+    "Extension Packs"
   ],
   "activationEvents": [
     "onCommand:bc-snippet-code.helloWorld"
