@@ -1,0 +1,21 @@
+{
+  "Print to vue": {
+    "scope": "vue,typescript",
+    "prefix": "vue3",
+    "body": [
+      "<template>",
+      "  <div>",
+      "  </div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\" setup name=\"$1\">",
+      "import { ref, reactive } from 'vue';",
+      "",
+      "</script>",
+      "",
+      "<style lang=\"less\" src=\"./style.less\" scope></style>",
+      ""
+    ],
+    "description": "vue3默认代码片段"
+  }
+}
