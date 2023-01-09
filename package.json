@@ -13,6 +13,7 @@
     "onCommand:bc-snippet-code.helloWorld"
   ],
   "main": "./out/extension.js",
+  "publisher": "jianmofeng",
   "contributes": {
     "commands": [
       {
