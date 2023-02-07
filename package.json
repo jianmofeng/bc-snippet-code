@@ -3,7 +3,7 @@
   "displayName": "bc-snippet-code",
   "description": "babycare admin后台代码片段",
   "publisher": "jianmofeng",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.74.0"
   },
