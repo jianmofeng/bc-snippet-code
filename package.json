@@ -1,7 +1,7 @@
 {
   "name": "bc-snippet-code",
   "displayName": "bc-snippet-code",
-  "description": "babycare ts代码片段",
+  "description": "babycare admin后台代码片段",
   "publisher": "jianmofeng",
   "version": "0.0.3",
   "engines": {
@@ -18,18 +18,24 @@
 				"path": "./snippets/vue3.json"
 			},
       {
+				"language": "vue",
+				"path": "./snippets/template.json"
+			},
+      {
 				"language": "typescript",
-				"path": "./snippets/vue3.json"
-			},{
-				"language": "javascript",
-				"path": "./snippets/vue3.json"
+				"path": "./snippets/admin-config.json"
+			},
+      {
+				"language": "typescriptreact",
+				"path": "./snippets/admin-config.json"
 			}
 		]
 	},
   "activationEvents": [
       "onLanguage:vue",
       "onLanguage:typescript",
-      "onLanguage:javascript"
+      "onLanguage:javascript",
+      "*"
   ],
   "main": "out/extension.js",
   "scripts": {
