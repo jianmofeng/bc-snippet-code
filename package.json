@@ -33,8 +33,9 @@
 	},
   "activationEvents": [
       "onLanguage:vue",
-      "onLanguage:typescript",
       "onLanguage:javascript",
+      "onLanguage:typescript",
+      "onLanguage:typescriptreact",
       "*"
   ],
   "main": "out/extension.js",

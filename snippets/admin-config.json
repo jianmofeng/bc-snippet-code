@@ -96,5 +96,19 @@
         "    ],",
         "};"
     ]
+  },
+  "admin modal config": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "admin.modalConfig",
+    "description": "index.ts 弹窗Modal导出文件",
+    "body": [
+      "import apiMount from '@/utils/apiMount';",
+      "import template from './template.vue';",
+      "",
+      "const caller = apiMount(template);",
+      "",
+      "export default caller;",
+      ""
+    ]
   }
 }
