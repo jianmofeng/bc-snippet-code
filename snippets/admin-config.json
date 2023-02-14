@@ -110,5 +110,14 @@
       "export default caller;",
       ""
     ]
+  },
+  "ajax同步调用且增加trycatch": {
+    "prefix": "admin.to",
+    "body": [
+      "// todo外层记得加async",
+      "const [err, result] = await to(\"$1\");",
+      "if (!err) Message.success('操作成功');"
+    ],
+    "description": "ajax同步调用且增加trycatch"
   }
 }

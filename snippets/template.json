@@ -1,6 +1,5 @@
 {
     "admin template premission":{
-    "scope": "vue",
     "prefix": "vp",
     "description": "权限",
     "body":[

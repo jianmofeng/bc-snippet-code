@@ -1,6 +1,6 @@
 {
   "name": "bc-snippet-code",
-  "displayName": "bc-snippet-code",
+  "displayName": "Bc Snippet Admin",
   "description": "babycare admin后台代码片段",
   "publisher": "jianmofeng",
   "version": "0.0.5",
@@ -11,6 +11,7 @@
   "categories": [
     "Snippets"
   ],
+  "homepage": "https://github.com/jianmofeng/bc-snippet-code",
 	"contributes": {
 		"snippets": [
 			{
