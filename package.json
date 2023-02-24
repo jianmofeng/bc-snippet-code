@@ -39,8 +39,7 @@
       "onLanguage:vue",
       "onLanguage:javascript",
       "onLanguage:typescript",
-      "onLanguage:typescriptreact",
-      "*"
+      "onLanguage:typescriptreact"
   ],
   "main": "out/extension.js",
   "scripts": {
