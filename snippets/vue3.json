@@ -221,5 +221,45 @@
       "<style lang=\"less\" scoped></style>",
       ""
     ]
+  },
+  "admin detail template": {
+    "prefix": "admin.detail",
+    "description": "二级详情页面",
+    "body": [
+      "<template>",
+      "  <PageContainerDetail title=\"$1\" :footer=\"true\">",
+      "    <a-spin :loading=\"loading\" dot style=\"width: 100%\"></a-spin>",
+      "    <template v-if=\"!loading\" #footerRight>",
+      "      <a-space>",
+      "        <a-button @click=\"back\">返回</a-button>",
+      "        <a-button type=\"primary\" @click=\"save\">保存</a-button>",
+      "      </a-space>",
+      "    </template>",
+      "  </PageContainerDetail>",
+      "</template>",
+      "",
+      "<script lang=\"ts\" setup>",
+      "import { ref } from 'vue';",
+      "import { useRouter } from 'vue-router';",
+      "import { PageContainerDetail } from '@xier/admin-ui';",
+      "import Message from '@arco-design/web-vue/es/message';",
+      "",
+      "const router = useRouter();",
+      "const loading = ref(false);",
+      "// 保存sku表单的信息",
+      "const save = () => {",
+      "  Message.success('提交成功');",
+      "  back();",
+      "};",
+      "",
+      "// 返回按钮",
+      "const back = () => {",
+      "  router.replace('/xxx');",
+      "};",
+      "</script>",
+      "",
+      "<style lang=\"less\" scoped></style>",
+      ""
+    ]
   }
 }

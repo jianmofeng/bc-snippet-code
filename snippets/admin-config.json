@@ -119,5 +119,83 @@
       "if (!err) Message.success('操作成功');"
     ],
     "description": "ajax同步调用且增加trycatch"
+  },
+  "admin 筛选项中的input": {
+    "scope": "typescript",
+    "prefix": "admin.input",
+    "description": "data.ts 筛选项中的input 配合admin.searchConfig使用",
+    "body": [
+      "{",
+      "      label: 'input',",
+      "      filed: 'xxxx',",
+      "      labelWidth: '60px',",
+      "      props: {",
+      "        col: {",
+      "          span: 6,",
+      "        },",
+      "        component: {",
+      "          placeholder: '',",
+      "        },",
+      "      },",
+      "      component: 'a-input',",
+      "    },"
+    ]
+  },
+  "admin 筛选项中的select": {
+    "scope": "typescript",
+    "prefix": "admin.select",
+    "description": "data.ts 筛选项中的select 配合admin.searchConfig使用",
+    "body": [
+      "    {",
+      "      label: 'select',",
+      "      filed: 'xxxx',",
+      "      labelWidth: '60px',",
+      "      props: {",
+      "        col: {",
+      "          span: 6,",
+      "        },",
+      "        component: {",
+      "          placeholder: '',",
+      "          multiple: true,",
+      "          maxTagCount: 1,",
+      "          allowSearch: true,",
+      "          options: [",
+      "            {",
+      "              label: 'xxxx',",
+      "              value: 'xxxx',",
+      "            },",
+      "          ],",
+      "        },",
+      "      },",
+      "      component: 'a-select',",
+      "    },"
+    ]
+  },
+  "admin 筛选项中的range-picker": {
+    "scope": "typescript",
+    "prefix": "admin.range-picker",
+    "description": "data.ts 筛选项中的range-picker 配合admin.searchConfig使用",
+    "body": [
+      "{",
+      "      label: 'rangePicker',",
+      "      filed: 'xxxx',",
+      "      labelWidth: '60px',",
+      "      props: {",
+      "        col: {",
+      "          span: 6,",
+      "        },",
+      "        component: {",
+      "          placeholder: '', // ['开始时间', '结束时间']",
+      "          format: 'YYYY-MM-DD HH:mm:ss',",
+      "          valueFormat: 'YYYY-MM-DD HH:mm:ss',",
+      "          timePickerProps: {",
+      "            defaultValue: ['00:00:00', '23:59:59'],",
+      "          },",
+      "          showTime: true,",
+      "        },",
+      "      },",
+      "      component: 'a-range-picker',",
+      "    },"
+    ]
   }
 }
