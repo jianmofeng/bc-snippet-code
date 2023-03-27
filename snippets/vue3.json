@@ -39,7 +39,6 @@
       "     <a-button",
       "       v-permission=\"\"",
       "       type=\"primary\"",
-      "       size=\"mini\"",
       "       style=\"margin-bottom: 15px\"",
       "       >",
       "       按钮",
