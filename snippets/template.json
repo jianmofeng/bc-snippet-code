@@ -1,9 +1,10 @@
 {
     "admin template premission":{
-    "prefix": "vp",
-    "description": "权限",
-    "body":[
-      "v-permission=\"'${1}'\""
-    ]
+      "scope": "vue,html",
+      "prefix": "v-p",
+      "description": "权限",
+      "body":[
+        "v-permission=\"'${1}'\""
+      ]
   }
 }

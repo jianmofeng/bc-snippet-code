@@ -26,6 +26,10 @@
         "path": "./snippets/template.json"
       },
       {
+        "language": "html",
+        "path": "./snippets/template.json"
+      },
+      {
         "language": "typescript",
         "path": "./snippets/admin-config.json"
       },
