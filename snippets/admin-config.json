@@ -113,6 +113,7 @@
   },
   "ajax同步调用且增加trycatch": {
     "prefix": "admin.to",
+    "scope": "typescript,typescriptreact",
     "body": [
       "// todo外层记得加async",
       "const [err, result] = await to(\"$1\");",

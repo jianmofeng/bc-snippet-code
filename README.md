@@ -8,6 +8,7 @@
 - `admin.list` 生成一个标准后台页面，上面搜索下面列表
 - `admin.modal` 生成弹窗模板
 - `admin.detail` 生成详情页面模板
+- `v-p` 生成v-permission语句
 
 ### ts,tsx
 
@@ -16,6 +17,7 @@
 - `admin.input` 配合 `admin.searchConfig`使用，生成搜索项input配置
 - `admin.select` 配合 `admin.searchConfig`使用，生成搜索项select配置
 - `admin.range-picker` 配合 `admin.searchConfig`使用，生成搜索项range-picker配置
+- `admin.to` 配合async使用，同步调用接口且支持try catch的语句，推荐异步请求用它
 ### ts
 - `admin.router` 生成一个基本的路由结构，只对ts文件起作用
 
