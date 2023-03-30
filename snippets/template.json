@@ -1,5 +1,5 @@
 {
-    "admin template premission":{
+    "admin template permission":{
       "scope": "vue,html",
       "prefix": "v-p",
       "description": "权限",
