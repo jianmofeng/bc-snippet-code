@@ -198,5 +198,50 @@
       "      component: 'a-range-picker',",
       "    },"
     ]
+  },
+  "枚举options": {
+    "scope": "typescript",
+    "prefix": "admin.enumOptions",
+    "body": [
+      "/** $1下拉列表 */",
+      "export const $2Options = [",
+      "  {",
+      "    label: '$4',",
+      "    value: $2.$3,",
+      "  },",
+      "];",
+      "",
+      "/** 获取$1名称 */",
+      "export const get$2Label = (t: number) => {",
+      "  return $2Options.find((item) => item.value === t)?.label;",
+      "};"
+    ],
+    "description": "枚举模板"
+  },
+  "枚举": {
+    "scope": "typescript",
+    "prefix": "admin.enum",
+    "body": [
+      "/**",
+      " * $1",
+      " */",
+      "export enum $2 {",
+      "  /** $4 */",
+      "  $3,",
+      "}",
+      "/** $1下拉列表 */",
+      "export const $2Options = [",
+      "  {",
+      "    label: '$4',",
+      "    value: $2.$3,",
+      "  },",
+      "];",
+      "",
+      "/** 获取$1名称 */",
+      "export const get$2Label = (t: number) => {",
+      "  return $2Options.find((item) => item.value === t)?.label;",
+      "};"
+    ],
+    "description": "枚举模板"
   }
 }
