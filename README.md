@@ -22,11 +22,11 @@
 - `admin.router` 生成一个基本的路由结构，只对ts文件起作用
 - `admin.enum` 生成一个枚举结构，包括下拉列表和获取枚举名称方法
 
-![admin.enum](/Users/admin/Downloads/enum1.gif)
+![enum1](https://image01f.bckid.com.cn/bc-snippet-code/enum1.gif)
 
 - `admin.enumOptions` 生成只有下拉列表和获取枚举名称方法的枚举结构
 
-![enums2](/Users/admin/Downloads/enums2.gif)
+![enums2](https://image01f.bckid.com.cn/bc-snippet-code/enums2.gif)
 
 
 
