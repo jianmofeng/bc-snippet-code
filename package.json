@@ -37,6 +37,30 @@
         "language": "typescriptreact",
         "path": "./snippets/admin-config.json"
       }
+    ],
+    "menus":{
+      "explorer/context": [ 
+        {
+          "command": "extension.createDirectory",
+          "group": "navigation",                 
+          "when": "explorerResourceIsFolder"    
+        },
+        {
+          "command": "extension.createDirectoryVue2",
+          "group": "navigation",                 
+          "when": "explorerResourceIsFolder"    
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "extension.createDirectory",
+        "title": "新建弹窗"
+      },
+      {
+        "command": "extension.createDirectoryVue2",
+        "title": "新建弹窗Vue2版"
+      }
     ]
   },
   "activationEvents": [
