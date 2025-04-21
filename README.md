@@ -1,3 +1,10 @@
+<!--
+ * @Author: 贾晨昊
+ * @Date: 2025-04-21 14:17:55
+ * @LastEditors: 贾晨昊
+ * @LastEditTime: 2025-04-21 15:10:43
+ * @Description: 
+-->
 # bc-snippet-code README
 
 ## 业务常用片段
@@ -28,7 +35,8 @@
 
 ![enums2](https://image01f.bckid.com.cn/bc-snippet-code/enums2.gif)
 
-
+## 新增创建ApiMount弹窗
+1. 右键目录，选择`新建弹窗`或`新建弹窗Vue2版`
 
 
 **Enjoy!**
