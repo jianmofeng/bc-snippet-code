@@ -77,7 +77,8 @@
     "pretest": "pnpm run compile && pnpm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js",
-    "release": "standard-version"
+    "release": "standard-version",
+    "package": "vsce package"
   },
   "standard-version": {
     "skip": {
