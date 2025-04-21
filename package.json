@@ -3,7 +3,7 @@
   "displayName": "Bc Snippet Admin",
   "description": "babycare admin后台代码片段",
   "publisher": "jianmofeng",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -38,17 +38,17 @@
         "path": "./snippets/admin-config.json"
       }
     ],
-    "menus":{
-      "explorer/context": [ 
+    "menus": {
+      "explorer/context": [
         {
           "command": "extension.createDirectory",
-          "group": "navigation",                 
-          "when": "explorerResourceIsFolder"    
+          "group": "navigation",
+          "when": "explorerResourceIsFolder"
         },
         {
           "command": "extension.createDirectoryVue2",
-          "group": "navigation",                 
-          "when": "explorerResourceIsFolder"    
+          "group": "navigation",
+          "when": "explorerResourceIsFolder"
         }
       ]
     },
