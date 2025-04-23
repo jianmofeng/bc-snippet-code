@@ -42,12 +42,12 @@
       "explorer/context": [
         {
           "command": "extension.createDirectory",
-          "group": "navigation",
+          "group": "z_commands",
           "when": "explorerResourceIsFolder"
         },
         {
           "command": "extension.createDirectoryVue2",
-          "group": "navigation",
+          "group": "z_commands",
           "when": "explorerResourceIsFolder"
         }
       ]
